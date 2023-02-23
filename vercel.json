@@ -1,6 +1,6 @@
 {
   "functions": {
-    "server.js": {
+    "api/server.js": {
       "memory": 1024,
       "includeFiles": "db.json"
     }
