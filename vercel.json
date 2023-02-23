@@ -1,14 +1,10 @@
 {
-  "version": 2,
-  "builds": [
-    {
-      "src": "server.js",
-      "use": "@vercel/node",
-      "config": {
-        "includeFiles": ["db.json"]
-      }
+  "functions": {
+    "server.js": {
+      "memory": 3008,
+      "includeFiles": "db.json"
     }
-  ],
+  },
   "routes": [
     {
       "src": "/(.*)",
