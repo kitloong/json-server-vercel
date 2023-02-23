@@ -1,7 +1,7 @@
 {
   "functions": {
     "server.js": {
-      "memory": 3008,
+      "memory": 1024,
       "includeFiles": "db.json"
     }
   },
