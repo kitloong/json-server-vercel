@@ -1,9 +1,55 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
+  "users": [{
+      "id": 1,
+      "userName": "truong",
+      "password": "123",
+      "fullName": "Hoang Van Truong",
+      "birthday": "11/05/1996",
+      "email": "truong@gmail.com",
+      "address": "Nam Định",
+      "status": true,
+      "createBy": "28/03/2023"
+    },
+    {
+      "id": 2,
+      "userName": "truong 2",
+      "password": "12345",
+      "fullName": "Hoang Van Truong 2",
+      "birthday": "11/05/1996",
+      "email": "truong2@gmail.com",
+      "address": "Nam Định",
+      "status": false,
+      "createBy": "28/03/2023"
+    },
+    {
+      "id": 1,
+      "userName": "truong 3",
+      "password": "12332dfdfd",
+      "fullName": "Hoang Van Truong 3",
+      "birthday": "11/05/1996",
+      "email": "truong3@gmail.com",
+      "address": "Hà Nội",
+      "status": true,
+      "createBy": "28/03/2023"
+    },
+    {
+      "id": 1,
+      "userName": "Thắng",
+      "password": "123",
+      "fullName": "Nguyễn Văn Thắng",
+      "birthday": "22/02/1993",
+      "email": "truong4@gmail.com",
+      "address": "Nam Định",
+      "status": false,
+      "createBy": "28/03/2023"
+    }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
-  ],
-  "profile": { "name": "typicode" }
+  "comments": [{
+    "id": 1,
+    "body": "some comment",
+    "postId": 1
+  }],
+  "profile": {
+    "name": "typicode"
+  }
 }
