@@ -1,9 +1,64 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
+  "favorites_db": [
+    {
+      "favorites": [
+        "cdu6IXM8FXGMx3TLe1",
+        "SVYrs1hU0SiAf1nw1n",
+        "hebekR37NJGLETAEoJ"
+      ],
+      "id": "2"
+    },
+    {
+      "id": "1",
+      "favorites": [
+        "S5ceQBMUutOS8D4Xt9",
+        "WG1YcoKVPwhR30HWP9",
+        "64BMk9wfF41SNhHSwY",
+        "SVYrs1hU0SiAf1nw1n",
+        "B2vBunhgt9Pc4",
+        "xTiTnqUxyWbsAXq7Ju",
+        "tXL4FHPSnVJ0A",
+        "lNimfezUn8Yh2"
+      ]
+    },
+    {
+      "favorites": ["MVDPX3gaKFPuo"],
+      "id": "HuYsk4_"
+    },
+    {
+      "id": "6tPQIS_",
+      "favorites": [
+        "8UOnaIKakDKLtshm2y",
+        "MVDPX3gaKFPuo",
+        "pjHRKW5BPhqiAcBjE3",
+        "64BMk9wfF41SNhHSwY"
+      ]
+    }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
-  ],
-  "profile": { "name": "typicode" }
+  "users": [
+    {
+      "name": "Dan",
+      "email": "dan.vlasov123@gmail.com",
+      "password": "123123123",
+      "id": "1"
+    },
+    {
+      "name": "rest",
+      "email": "test@test.test",
+      "password": "123123123",
+      "id": "6tPQIS_"
+    },
+    {
+      "name": "asdfasfd",
+      "email": "asdfasdf@asd.asdf",
+      "password": "asdfasdf",
+      "id": "qO4a9GD"
+    },
+    {
+      "name": "Test",
+      "email": "test@test.t12",
+      "password": "123123123",
+      "id": "HuYsk4_"
+    }
+  ]
 }
