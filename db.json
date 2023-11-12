@@ -1,9 +1,120 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
+  "organizations": [
+    {
+      "name": "WeHelp 1",
+      "about": "Somos uma ONG focada em tecnologia e inovação.",
+      "email": "ong@email.com",
+      "image": "https://images.unsplash.com/photo-1518791841217-8f162f1e1130?ixli",
+      "cnpj": "00255589000179",
+      "phone": "1435320334",
+      "password": "bdcebd4f01d7024696ba685eefc1c5dd446071b0c89f858aae7ef136c439e09e",
+      "cep": "30810-410",
+      "street": "Rua Waldemar Pequeno",
+      "number": "125",
+      "city": "Belo Horizonte",
+      "state": "MG",
+      "id": 1
+    },
+    {
+      "name": "WeHelp 2",
+      "about": "Somos uma ONG focada em tecnologia e inovação.",
+      "email": "ong@email.com",
+      "image": "https://images.unsplash.com/photo-1518791841217-8f162f1e1130?ixli",
+      "cnpj": "00255589000179",
+      "phone": "1435320334",
+      "password": "bdcebd4f01d7024696ba685eefc1c5dd446071b0c89f858aae7ef136c439e09e",
+      "cep": "30810-410",
+      "street": "Rua Waldemar Pequeno",
+      "number": "125",
+      "city": "Belo Horizonte",
+      "state": "MG",
+      "id": 2
+    },
+    {
+      "name": "Teste Organization",
+      "about": "Somos uma ONG focada em tecnologia e inovação.",
+      "email": "ong@email.com",
+      "image": "https://images.unsplash.com/photo-1518791841217-8f162f1e1130?ixli",
+      "cnpj": "00255589000179",
+      "phone": "1435320334",
+      "password": "bdcebd4f01d7024696ba685eefc1c5dd446071b0c89f858aae7ef136c439e09e",
+      "cep": "30810-410",
+      "street": "Rua Waldemar Pequeno",
+      "number": "125",
+      "city": "Belo Horizonte",
+      "state": "MG",
+      "id": 3
+    }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
+  "tasks": [
+    {
+      "organizationId": 1,
+      "name": "Criar Website updated",
+      "description": "Procuramos ajuda para criar um site impactante. Se você tem habilidades em design, programação ou conteúdo, junte-se a nós e seja parte da construção deste projeto online emocionante.",
+      "createdAt": "2022-03-01",
+      "status": "open",
+      "type": "remoto",
+      "searchData": "Criar Website updated Procuramos ajuda para criar um site impactante. Se você tem habilidades em design, programação ou conteúdo, junte-se a nós e seja parte da construção deste projeto online emocionante.",
+      "id": 1
+    },
+    {
+      "organizationId": 2,
+      "name": "Criar Website",
+      "description": "Procuramos ajuda para criar um site impactante. Se você tem habilidades em design, programação ou conteúdo, junte-se a nós e seja parte da construção deste projeto online emocionante.",
+      "createdAt": "2022-03-01",
+      "status": "open",
+      "type": "remoto",
+      "searchData": "Criar Website Procuramos ajuda para criar um site impactante. Se você tem habilidades em design, programação ou conteúdo, junte-se a nós e seja parte da construção deste projeto online emocionante.",
+      "id": 2
+    }
   ],
-  "profile": { "name": "typicode" }
+  "candidates": [
+    {
+      "taskId": 1,
+      "name": "John Doe",
+      "email": "john.doe@email.com",
+      "active": true,
+      "id": 1
+    },
+    {
+      "taskId": 1,
+      "name": "Mark Colt",
+      "email": "mark.colt@email.com",
+      "active": true,
+      "id": 2
+    },
+    {
+      "taskId": 2,
+      "name": "Jane Smith",
+      "email": "jane.smith@email.com",
+      "active": true,
+      "id": 3
+    }
+  ],
+  "reviews": [
+    {
+      "taskId": 1,
+      "candidateId": 1,
+      "comment": "good experience",
+      "token": "123",
+      "expiresAt": "2023-11-11T20:39:19.625Z",
+      "id": 1
+    },
+    {
+      "taskId": 1,
+      "candidateId": 1,
+      "comment": "bad experience",
+      "token": "123",
+      "expiresAt": "2023-11-11T20:17:36.152Z",
+      "id": 2
+    },
+    {
+      "taskId": 2,
+      "candidateId": 1,
+      "comment": "neutral experience",
+      "token": "123",
+      "expiresAt": "2023-11-11T20:17:36.966Z",
+      "id": 3
+    }
+  ]
 }
