@@ -1,9 +1,32 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
-  ],
-  "profile": { "name": "typicode" }
+  "kittens": [
+      {
+          "id": "1",
+          "kitten-name": "kitten 1",
+          "kitten-image": "https://images.pexels.com/photos/1643457/pexels-photo-1643457.jpeg",
+          "kitten-capacity": 70,
+          "kitten-sold": 20
+      },
+      {
+          "id": "2",
+          "kitten-name": "kitten 2",
+          "kitten-image": "https://images.pexels.com/photos/96938/pexels-photo-96938.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" ,
+          "kitten-capacity": 80,
+          "kitten-sold": 20
+      },
+      {
+          "id": "3",
+          "kitten-name": "kitten 3",
+          "kitten-image": "https://images.pexels.com/photos/1317844/pexels-photo-1317844.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+          "kitten-capacity": 70,
+          "kitten-sold": 18
+      },
+      {
+          "id": "4",
+          "kitten-name": "kitten 4",
+          "kitten-image": "assets/local-cutie.webp",
+          "kitten-capacity": 75,
+          "kitten-sold": 20
+      }
+  ]
 }
