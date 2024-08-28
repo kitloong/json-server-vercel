@@ -1,9 +1,40 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
-  ],
-  "profile": { "name": "typicode" }
+  "cities": [
+    {
+      "id": "02a8",
+      "cityName": "Giza",
+      "country": "Egypt",
+      "emoji": "",
+      "date": "2024-08-25T01:04:26.291Z",
+      "notes": "No Notes",
+      "position": {
+        "lat": "29.935895213372444",
+        "lng": "31.175553989764023"
+      }
+    },
+    {
+      "id": "5813",
+      "cityName": "Alexandria",
+      "country": "Egypt",
+      "emoji": "",
+      "date": "2024-08-25T01:04:58.293Z",
+      "notes": "No Notes",
+      "position": {
+        "lat": "30.921076375384906",
+        "lng": "29.747487279139115"
+      }
+    },
+    {
+      "id": "988c",
+      "cityName": "Cairo",
+      "country": "Egypt",
+      "emoji": "",
+      "date": "2024-08-25T01:05:17.936Z",
+      "notes": "No Notes",
+      "position": {
+        "lat": "30.012030680358613",
+        "lng": "31.63696027781089"
+      }
+    }
+  ]
 }
