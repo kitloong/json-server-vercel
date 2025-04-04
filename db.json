@@ -1,9 +1,449 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
+  "products": [
+    {
+      "id": 1,
+      "nombre": "Camiseta Básica",
+      "descripcion": "Camiseta de algodón de color blanco, perfecta para cualquier ocasión.",
+      "precio": 20,
+      "imagen": "https://loremflickr.com/640/480/product",
+      "detalles": "100% algodón, disponible en varias tallas.",
+      "precio_oferta": 18,
+      "cantidad": 100,
+      "estrellas": 4,
+      "categoryId": 1
+    },
+    {
+      "id": 2,
+      "nombre": "Jeans Skinny",
+      "descripcion": "Jeans ajustados de mezclilla azul con un toque moderno.",
+      "precio": 40,
+      "imagen": "https://loremflickr.com/640/480/product",
+      "detalles": "Mezcla de algodón y elastano para mayor comodidad.",
+      "precio_oferta": 35,
+      "cantidad": 60,
+      "estrellas": 5,
+      "categoryId": 2
+    },
+    {
+      "id": 3,
+      "nombre": "Vestido Floral",
+      "descripcion": "Vestido corto con estampado floral ideal para la primavera.",
+      "precio": 50,
+      "imagen": "https://loremflickr.com/640/480/product",
+      "detalles": "Tela ligera y fresca, perfecto para días cálidos.",
+      "precio_oferta": 45,
+      "cantidad": 80,
+      "estrellas": 5,
+      "categoryId": 3
+    },
+    {
+      "id": 4,
+      "nombre": "Chaqueta de Cuero",
+      "descripcion": "Chaqueta de cuero negra con un diseño clásico y atemporal.",
+      "precio": 150,
+      "imagen": "https://loremflickr.com/640/480/product",
+      "detalles": "Cuero genuino, disponible en tallas S, M, L.",
+      "precio_oferta": 135,
+      "cantidad": 40,
+      "estrellas": 4,
+      "categoryId": 4
+    },
+    {
+      "id": 5,
+      "nombre": "Sudadera con Capucha",
+      "descripcion": "Sudadera de algodón gris con capucha, perfecta para el invierno.",
+      "precio": 35,
+      "imagen": "https://loremflickr.com/640/480/product",
+      "detalles": "Suave por dentro, disponible en varios colores.",
+      "precio_oferta": 30,
+      "cantidad": 120,
+      "estrellas": 4,
+      "categoryId": 5
+    },
+    {
+      "id": 6,
+      "nombre": "Falda de Cuadros",
+      "descripcion": "Falda corta de cuadros estilo escocés, perfecta para combinar.",
+      "precio": 25,
+      "imagen": "https://loremflickr.com/640/480/product",
+      "detalles": "Disponible en colores rojo y verde.",
+      "precio_oferta": 20,
+      "cantidad": 70,
+      "estrellas": 3,
+      "categoryId": 6
+    },
+    {
+      "id": 7,
+      "nombre": "Pantalones Chinos",
+      "descripcion": "Pantalones chinos beige con corte recto.",
+      "precio": 45,
+      "imagen": "https://loremflickr.com/640/480/product",
+      "detalles": "Perfectos para un look casual o formal.",
+      "precio_oferta": 40,
+      "cantidad": 85,
+      "estrellas": 5,
+      "categoryId": 2
+    },
+    {
+      "id": 8,
+      "nombre": "Blusa de Encaje",
+      "descripcion": "Blusa blanca con detalles de encaje en las mangas.",
+      "precio": 30,
+      "imagen": "https://loremflickr.com/640/480/product",
+      "detalles": "Ideal para eventos especiales o casuales.",
+      "precio_oferta": 25,
+      "cantidad": 50,
+      "estrellas": 4,
+      "categoryId": 3
+    },
+    {
+      "id": 9,
+      "nombre": "Abrigo Largo",
+      "descripcion": "Abrigo largo gris con doble botonadura.",
+      "precio": 120,
+      "imagen": "https://loremflickr.com/640/480/product",
+      "detalles": "Perfecto para el invierno.",
+      "precio_oferta": 110,
+      "cantidad": 30,
+      "estrellas": 5,
+      "categoryId": 4
+    },
+    {
+      "id": 10,
+      "nombre": "Camiseta Gráfica",
+      "descripcion": "Camiseta con diseño gráfico divertido.",
+      "precio": 25,
+      "imagen": "https://loremflickr.com/640/480/product",
+      "detalles": "100% algodón, disponible en varios diseños.",
+      "precio_oferta": 22,
+      "cantidad": 200,
+      "estrellas": 3,
+      "categoryId": 1
+    },
+    {
+      "id": 11,
+      "nombre": "Shorts Deportivos",
+      "descripcion": "Shorts deportivos ligeros y cómodos.",
+      "precio": 20,
+      "imagen": "https://loremflickr.com/640/480/product",
+      "detalles": "Perfectos para entrenar o relajarse.",
+      "precio_oferta": 18,
+      "cantidad": 140,
+      "estrellas": 4,
+      "categoryId": 5
+    },
+    {
+      "id": 12,
+      "nombre": "Gorra Casual",
+      "descripcion": "Gorra ajustable de color negro.",
+      "precio": 15,
+      "imagen": "https://loremflickr.com/640/480/product",
+      "detalles": "Ideal para protegerte del sol con estilo.",
+      "precio_oferta": 12,
+      "cantidad": 150,
+      "estrellas": 3,
+      "categoryId": 1
+    },
+    {
+      "id": 13,
+      "nombre": "Botas de Cuero",
+      "descripcion": "Botas de cuero marrón con cordones.",
+      "precio": 80,
+      "imagen": "https://loremflickr.com/640/480/product",
+      "detalles": "Duraderas y cómodas, perfectas para el invierno.",
+      "precio_oferta": 70,
+      "cantidad": 50,
+      "estrellas": 5,
+      "categoryId": 4
+    },
+    {
+      "id": 14,
+      "nombre": "Polo Deportivo",
+      "descripcion": "Polo deportivo de tela transpirable.",
+      "precio": 35,
+      "imagen": "https://loremflickr.com/640/480/product",
+      "detalles": "Ideal para actividades físicas.",
+      "precio_oferta": 30,
+      "cantidad": 90,
+      "estrellas": 4,
+      "categoryId": 5
+    },
+    {
+      "id": 15,
+      "nombre": "Chaqueta Vaquera",
+      "descripcion": "Chaqueta de mezclilla azul con bolsillos frontales.",
+      "precio": 60,
+      "imagen": "https://loremflickr.com/640/480/product",
+      "detalles": "Perfecta para un look casual.",
+      "precio_oferta": 55,
+      "cantidad": 60,
+      "estrellas": 4,
+      "categoryId": 2
+    },
+    {
+      "id": 16,
+      "nombre": "Falda Midi",
+      "descripcion": "Falda midi plisada de color rosa.",
+      "precio": 40,
+      "imagen": "https://loremflickr.com/640/480/product",
+      "detalles": "Elegante y versátil para cualquier ocasión.",
+      "precio_oferta": 35,
+      "cantidad": 70,
+      "estrellas": 4,
+      "categoryId": 3
+    },
+    {
+      "id": 17,
+      "nombre": "Chaleco Acolchado",
+      "descripcion": "Chaleco acolchado negro, ideal para capas adicionales.",
+      "precio": 50,
+      "imagen": "https://loremflickr.com/640/480/product",
+      "detalles": "Ligero y cálido.",
+      "precio_oferta": 45,
+      "cantidad": 45,
+      "estrellas": 3,
+      "categoryId": 4
+    },
+    {
+      "id": 18,
+      "nombre": "Pantalones Jogger",
+      "descripcion": "Pantalones jogger gris con puños elásticos.",
+      "precio": 35,
+      "imagen": "https://loremflickr.com/640/480/product",
+      "detalles": "Cómodos y modernos.",
+      "precio_oferta": 30,
+      "cantidad": 85,
+      "estrellas": 5,
+      "categoryId": 5
+    },
+    {
+      "id": 19,
+      "nombre": "Camisa de Lino",
+      "descripcion": "Camisa de lino beige, ideal para el verano.",
+      "precio": 45,
+      "imagen": "https://loremflickr.com/640/480/product",
+      "detalles": "Fresca y ligera, disponible en varias tallas.",
+      "precio_oferta": 40,
+      "cantidad": 55,
+      "estrellas": 4,
+      "categoryId": 2
+    },
+    {
+      "id": 20,
+      "nombre": "Suéter de Lana",
+      "descripcion": "Suéter de lana gruesa con cuello redondo.",
+      "precio": 65,
+      "imagen": "https://loremflickr.com/640/480/product",
+      "detalles": "Cálido y perfecto para el invierno.",
+      "precio_oferta": 60,
+      "cantidad": 40,
+      "estrellas": 5,
+      "categoryId": 4
+    },
+    {
+      "id": 21,
+      "nombre": "Top de Tirantes",
+      "descripcion": "Top de tirantes blanco, ideal para el verano.",
+      "precio": 20,
+      "imagen": "https://loremflickr.com/640/480/product",
+      "detalles": "Fresco y ligero.",
+      "precio_oferta": 18,
+      "cantidad": 110,
+      "estrellas": 4,
+      "categoryId": 3
+    },
+    {
+      "id": 22,
+      "nombre": "Blazer Formal",
+      "descripcion": "Blazer negro de corte entallado, ideal para oficina.",
+      "precio": 85,
+      "imagen": "https://loremflickr.com/640/480/product",
+      "detalles": "Elegante y profesional.",
+      "precio_oferta": 75,
+      "cantidad": 35,
+      "estrellas": 5,
+      "categoryId": 4
+    },
+    {
+      "id": 23,
+      "nombre": "Sandalias Planas",
+      "descripcion": "Sandalias planas marrones, ideales para el verano.",
+      "precio": 25,
+      "imagen": "https://loremflickr.com/640/480/product",
+      "detalles": "Cómodas y elegantes.",
+      "precio_oferta": 22,
+      "cantidad": 95,
+      "estrellas": 4,
+      "categoryId": 6
+    },
+    {
+      "id": 24,
+      "nombre": "Pantalones Cargo",
+      "descripcion": "Pantalones cargo verde militar con bolsillos grandes.",
+      "precio": 50,
+      "imagen": "https://loremflickr.com/640/480/product",
+      "detalles": "Duraderos y prácticos.",
+      "precio_oferta": 45,
+      "cantidad": 60,
+      "estrellas": 5,
+      "categoryId": 2
+    },
+    {
+      "id": 25,
+      "nombre": "Falda Lápiz",
+      "descripcion": "Falda lápiz negra, ideal para el trabajo.",
+      "precio": 40,
+      "imagen": "https://loremflickr.com/640/480/product",
+      "detalles": "Elegante y ajustada.",
+      "precio_oferta": 35,
+      "cantidad": 55,
+      "estrellas": 4,
+      "categoryId": 3
+    },
+    {
+      "id": 26,
+      "nombre": "Polo Rayado",
+      "descripcion": "Polo rayado blanco y azul, estilo marinero.",
+      "precio": 30,
+      "imagen": "https://loremflickr.com/640/480/product",
+      "detalles": "Fresco y casual.",
+      "precio_oferta": 25,
+      "cantidad": 90,
+      "estrellas": 4,
+      "categoryId": 1
+    },
+    {
+      "id": 27,
+      "nombre": "Leggings Negros",
+      "descripcion": "Leggings negros elásticos, ideales para hacer ejercicio.",
+      "precio": 25,
+      "imagen": "https://loremflickr.com/640/480/product",
+      "detalles": "Comodidad y estilo.",
+      "precio_oferta": 20,
+      "cantidad": 100,
+      "estrellas": 5,
+      "categoryId": 5
+    },
+    {
+      "id": 28,
+      "nombre": "Sombrero de Paja",
+      "descripcion": "Sombrero de paja estilo panamá, ideal para la playa.",
+      "precio": 35,
+      "imagen": "https://loremflickr.com/640/480/product",
+      "detalles": "Protección solar con estilo.",
+      "precio_oferta": 30,
+      "cantidad": 70,
+      "estrellas": 4,
+      "categoryId": 6
+    },
+    {
+      "id": 29,
+      "nombre": "Chaleco de Punto",
+      "descripcion": "Chaleco de punto gris, ideal para capas adicionales.",
+      "precio": 45,
+      "imagen": "https://loremflickr.com/640/480/product",
+      "detalles": "Ligero y cálido.",
+      "precio_oferta": 40,
+      "cantidad": 40,
+      "estrellas": 4,
+      "categoryId": 4
+    },
+    {
+      "id": 30,
+      "nombre": "Camiseta Deportiva",
+      "descripcion": "Camiseta de tela técnica, ideal para entrenamientos.",
+      "precio": 25,
+      "imagen": "https://loremflickr.com/640/480/product",
+      "detalles": "Transpirable y cómoda.",
+      "precio_oferta": 22,
+      "cantidad": 130,
+      "estrellas": 5,
+      "categoryId": 5
+    }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
+  "categories": [
+    {
+      "id": 1,
+      "nombre": "Camisetas",
+      "imagen": "https://loremflickr.com/640/480/product"
+    },
+    {
+      "id": 2,
+      "nombre": "Pantalones",
+      "imagen": "https://loremflickr.com/640/480/product"
+    },
+    {
+      "id": 3,
+      "nombre": "Vestidos",
+      "imagen": "https://loremflickr.com/640/480/product"
+    },
+    {
+      "id": 4,
+      "nombre": "Abrigos",
+      "imagen": "https://loremflickr.com/640/480/product"
+    },
+    {
+      "id": 5,
+      "nombre": "Ropa Deportiva",
+      "imagen": "https://loremflickr.com/640/480/product"
+    },
+    {
+      "id": 6,
+      "nombre": "Accesorios",
+      "imagen": "https://loremflickr.com/640/480/product"
+    }
   ],
-  "profile": { "name": "typicode" }
+  "orders": [],
+  "users": [
+    {
+      "email": "user1@example.com",
+      "password": "$2b$05$pVvT68qkATOfaGN0h0czve.yp2Xk6xmxoCVlBhuHjQ.YBRUPAoiy.",
+      "name": "Alice Johnson"
+    },
+    {
+      "email": "user2@example.com",
+      "password": "$2b$05$7EmnqHW0K3x.dUrD8YhcNeqhHgAehFM2m9GRid2zECP1BRj1zwRBi",
+      "name": "Michael Smith"
+    },
+    {
+      "email": "user3@example.com",
+      "password": "$2b$05$oVqO3/m4cI5OGkakMjuzXeKKYQvyFUCCvr3cFb3vBtVqGdAB9NfTK",
+      "name": "Emma Brown"
+    },
+    {
+      "email": "user4@example.com",
+      "password": "$2b$05$Uzk1sYvyf0MbSjnievBJSOROSGeCidl8nTk0JnjjBquZzq/IEsDPS",
+      "name": "James Williams"
+    },
+    {
+      "email": "user5@example.com",
+      "password": "$2b$05$DEPh7cJFtKg8eXbKx7sw6eXHYQAFEPPYJi.zxFQq3RCbFJ807euyG",
+      "name": "Olivia Davis"
+    },
+    {
+      "email": "user6@example.com",
+      "password": "$2b$05$eVDGJ3b0mZtjv/q2CFYqPu8d/Q6G30eRjz45SgaCPoDrnLy8xxurq",
+      "name": "Liam Miller"
+    },
+    {
+      "email": "user7@example.com",
+      "password": "$2b$05$CizLw58DMWBuoOsVgp9gL.JW2AYhoVLAtf1ct5X1S8jHX15y2CnrS",
+      "name": "Sophia Wilson"
+    },
+    {
+      "email": "user8@example.com",
+      "password": "$2b$05$JISZg60jJKk1wBRDW5EIveloxvwus9d.ITZB0IFeoErYROdMupiW.",
+      "name": "Benjamin Moore"
+    },
+    {
+      "email": "user9@example.com",
+      "password": "$2b$05$j2i.k7qKaNoG.R/x7lbFRegY.V54gkcXnzGgW06CcHLzwDLL5n4kC",
+      "name": "Charlotte Taylor"
+    },
+    {
+      "email": "user10@example.com",
+      "password": "$2b$05$dXgKRCUTnZkqf1Fqb2vmCORh71hJ1MAW4FVYkrz8j/WZbSZ4JDfm.",
+      "name": "Ethan Anderson"
+    }
+  ]
 }

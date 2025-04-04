@@ -4,9 +4,12 @@
   "description": "Deploy JSON Server to Vercel",
   "main": "api/server.js",
   "scripts": {
-    "start": "node api/server.js"
+    "start": "node api/server.js",
+    "dev": "node api/server.js --watch"
   },
   "dependencies": {
-    "json-server": "^0.17.4"
+    "bcrypt": "^5.1.1",
+    "json-server": "^0.17.4",
+    "json-server-auth": "^2.1.0"
   }
 }
