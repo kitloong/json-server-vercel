@@ -1,9 +1,18 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
-  ],
-  "profile": { "name": "typicode" }
+  "reviews": [
+    {
+      "id": "2a1a",
+      "name": "carlos",
+      "rating": "5",
+      "comment": "the products are great and match every bit of my taste",
+      "date": "4/23/2025"
+    },
+    {
+      "id": "717a",
+      "name": "mary",
+      "rating": "4",
+      "comment": "Shee's thrift offers quality services...I highly recommend them",
+      "date": "4/23/2025"
+    }
+  ]
 }
